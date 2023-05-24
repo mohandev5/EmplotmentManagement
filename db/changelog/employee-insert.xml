@@ -1,0 +1,43 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+    <changeSet id="2" author="mohan">
+        <insert tableName="employee">
+            <column name="employee_id" valueNumeric="1"> </column>
+            <column name="employee_name" value="john"/>
+            <column name="salary" valueNumeric="25000"/>
+            <column name="department" value="devolepment"/>
+            <column name="role" value="junior devoloper"/>
+        </insert>
+        <insert tableName="employee">
+            <column name="employee_id" valueNumeric="2"> </column>
+            <column name="employee_name" value="roger"/>
+            <column name="salary" valueNumeric="30000"/>
+            <column name="department" value="devolepment"/>
+            <column name="role" value="senior devoloper"/>
+        </insert>
+        <insert tableName="employee">
+            <column name="employee_id" valueNumeric="3"> </column>
+            <column name="employee_name" value="adam"/>
+            <column name="salary" valueNumeric="45000"/>
+            <column name="department" value="devolepment"/>
+            <column name="role" value="full stack devoloper"/>
+        </insert>
+        <insert tableName="employee">
+            <column name="employee_id" valueNumeric="4"> </column>
+            <column name="employee_name" value="virat"/>
+            <column name="salary" valueNumeric="80000"/>
+            <column name="department" value="devolepment"/>
+            <column name="role" value="manager"/>
+        </insert>
+        <insert tableName="employee">
+            <column name="employee_id" valueNumeric="5"> </column>
+            <column name="employee_name" value="smith"/>
+            <column name="salary" valueNumeric="60000"/>
+            <column name="department" value="devolepment"/>
+            <column name="role" value="mobile devoloper"/>
+        </insert>
+    </changeSet>
+</databaseChangeLog>
